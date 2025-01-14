@@ -2,7 +2,7 @@
 
 # 1. Giới thiệu
 
-Dự án này hướng dẫn sinh viên thực hành viết và thực thi các kịch bản kiểm thử tự động cho chức năng đăng nhập của một trang web mẫu. Selenium là một công cụ kiểm thử tự động phổ biến, hỗ trợ tương tác với các thành phần giao diện người dùng như nhập liệu, nhấn nút, và kiểm tra kết quả hiển thị, từ đó giúp phát hiện lỗi một cách hiệu quả và nhanh chóng trong quá trình phát triển phần mềm. của một trang web mẫu sử dụng Selenium WebDriver và ngôn ngữ Java.
+Dự án này thực hiện kiểm thử tự động chức năng đăng nhập trên một trang web mẫu. Selenium WebDriver hỗ trợ tương tác với các thành phần giao diện người dùng (input fields, buttons) để kiểm tra tính năng đăng nhập nhanh chóng và chính xác.
 
 # 2. Mục tiêu
 
@@ -10,11 +10,11 @@ Dự án này hướng dẫn sinh viên thực hành viết và thực thi các 
 
 - Kiểm thử tự động chức năng đăng nhập với các tình huống:
 
-- Đăng nhập thành công.
+1. Đăng nhập thành công.
 
-- Đăng nhập thất bại.
+2. Đăng nhập thất bại.
 
-- Trường nhập liệu trống.
+3. Trường nhập liệu trống.
 
 # 3. Yêu Cầu Dự Án
 
