@@ -10,11 +10,11 @@ Dự án này thực hiện kiểm thử tự động chức năng đăng nhập
 
 - Kiểm thử tự động chức năng đăng nhập với các tình huống:
 
-1. Đăng nhập thành công.
+ 1. Đăng nhập thành công.
 
-2. Đăng nhập thất bại.
+ 2. Đăng nhập thất bại.
 
-3. Trường nhập liệu trống.
+ 3. Trường nhập liệu trống.
 
 # 3. Yêu Cầu Dự Án
 
