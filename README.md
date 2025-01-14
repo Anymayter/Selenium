@@ -1,10 +1,10 @@
 # Kiểm Thử Tự Động Chức Năng Đăng Nhập Sử Dụng Selenium (Java)
 
-# Giới thiệu
+# 1. Giới thiệu
 
 Dự án này hướng dẫn sinh viên thực hành viết và thực thi các kịch bản kiểm thử tự động cho chức năng đăng nhập của một trang web mẫu. Selenium là một công cụ kiểm thử tự động phổ biến, hỗ trợ tương tác với các thành phần giao diện người dùng như nhập liệu, nhấn nút, và kiểm tra kết quả hiển thị, từ đó giúp phát hiện lỗi một cách hiệu quả và nhanh chóng trong quá trình phát triển phần mềm. của một trang web mẫu sử dụng Selenium WebDriver và ngôn ngữ Java.
 
-# Mục tiêu
+# 2. Mục tiêu
 
 - Thực hành tương tác với các thành phần giao diện web qua Selenium.
 
@@ -16,7 +16,7 @@ Dự án này hướng dẫn sinh viên thực hành viết và thực thi các 
 
 - Trường nhập liệu trống.
 
-# Yêu Cầu Dự Án
+# 3. Yêu Cầu Dự Án
 
 1. Cài đặt Môi Trường
 
@@ -109,7 +109,7 @@ public class LoginTest {
 
 ```
 
-# Kết Quả Mong Đợi
+# 4. Kết Quả Mong Đợi
 
 - Mỗi trường Selenium được thiết lập và chạy thành công.
 
@@ -127,10 +127,10 @@ public class LoginTest {
 
    2. Xác minh đúng các thông báo sau khi đăng nhập.
 
-# Yêu Cầu Nộp Bài
+# 5. Yêu Cầu Nộp Bài
 
 
-# Mở Rộng (Tùy Chọn)
+# 6. Mở Rộng (Tùy Chọn)
 
 - Thực hiện kiểm thử trên nhiều trình duyệt (Chrome, Firefox).
 
