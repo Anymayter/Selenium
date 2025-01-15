@@ -102,13 +102,25 @@ Kiểm tra giới hạn độ dài của username và password.
 
 ### 5.1 Chạy toàn bộ test suite
 
+```xml
 mvn test
+```
 
 ### 5.2 Chạy test case cụ thể
 
+```xml
 mvn test -Dtest=LoginTest
+```
 
-### 6. Các cải tiến đã thực hiện
+## 6. Giải quyết sự cố
+
+- Lỗi không thể tìm thấy Selenium WebDriver: Đảm bảo rằng bạn đã cài đặt đúng driver tương ứng với trình duyệt bạn đang sử dụng (Chrome, Firefox, v.v.). Kiểm tra phiên bản của Selenium và driver.
+
+- Lỗi "NoSuchElementException": Kiểm tra xem phần tử bạn đang tìm kiếm có thực sự có trên trang web và XPath có chính xác không.
+
+- Lỗi kết nối mạng: Nếu ứng dụng không thể kết nối tới trang web, hãy kiểm tra kết nối mạng của bạn và đảm bảo rằng địa chỉ URL là chính xác.
+
+## 7. Các cải tiến đã thực hiện
 - Tối ưu hóa cấu trúc project.
 - Áp dụng Page Object Model.
 - Sử dụng TestNG annotations để quản lý test flow.
@@ -124,7 +136,7 @@ Báo cáo test
 - Screenshots tự động khi test fail.
 - Log details cho từng test step.
 
-## 7. Hướng phát triển
+## 8. Hướng phát triển
 
 Thêm các test case cho:
 
@@ -137,12 +149,12 @@ Cải thiện reporting:
 - Tích hợp với Jenkins pipeline.
 - Gửi email report tự động.
 - Dashboard theo dõi test metrics.
-## 8. Tài liệu tham khảo
+## 9. Tài liệu tham khảo
 
 - Selenium Java Documentation
 - TestNG Documentation
 - Page Object Model Practices
 
 
-## 9. Đóng góp
+## 10. Đóng góp
 Mọi đóng góp và phản hồi xin gửi về email: ToanNguyen130104@gmail.com
